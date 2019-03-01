@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Chrome 72.0.3626.119,,2019-02-28 13:48:55,2019-02-28 13:49:08,12.614s,FAILED
+,,,,,,
+Test Cases/Test1,Chrome 72.0.3626.119,,2019-02-28 13:48:55,2019-02-28 13:49:07,11.633s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-02-28 13:48:56,2019-02-28 13:49:02,5.842s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/login"")",Chrome 72.0.3626.119,,2019-02-28 13:49:02,2019-02-28 13:49:04,2.066s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 72.0.3626.119,,2019-02-28 13:49:04,2019-02-28 13:49:04,0.327s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 72.0.3626.119,,2019-02-28 13:49:04,2019-02-28 13:49:04,0.194s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_Submit""))",Chrome 72.0.3626.119,,2019-02-28 13:49:04,2019-02-28 13:49:06,2.213s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Welcome Admin""))",Chrome 72.0.3626.119,,2019-02-28 13:49:06,2019-02-28 13:49:07,0.078s,PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/a_Logout""))",Chrome 72.0.3626.119,,2019-02-28 13:49:07,2019-02-28 13:49:07,0.042s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 72.0.3626.119,,2019-02-28 13:49:07,2019-02-28 13:49:07,0.519s,FAILED
