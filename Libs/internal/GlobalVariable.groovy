@@ -18,10 +18,15 @@ public class GlobalVariable {
      */
     public static Object url
      
+    /**
+     * <p></p>
+     */
+    public static Object updateuserName
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['url' : 'https://opensource-demo.orangehrmlive.com/login'])
+        allVariables.put('default', ['url' : 'https://opensource-demo.orangehrmlive.com/login', 'updateuserName' : 'Thomas'])
         allVariables.put('stg', allVariables['default'] + ['url' : 'https://opensource-demo.orangehrmlive.com/login'])
         
         String profileName = RunConfiguration.getExecutionProfile()
@@ -35,6 +40,7 @@ public class GlobalVariable {
 		}
 
         url = selectedVariables["url"]
+        updateuserName = selectedVariables["updateuserName"]
         
     }
 }
